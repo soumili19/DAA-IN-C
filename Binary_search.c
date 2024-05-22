@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//searching//
 int binarysearch(int a[], int beg, int end, int val) {
     if (beg <= end) {
         int mid = (beg + end) / 2;
