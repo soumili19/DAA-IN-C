@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<limits.h>
+//min max search//
 void minmax(int arr[],int n){
     int i;
     int  min =INT_MAX, max=INT_MIN,;
