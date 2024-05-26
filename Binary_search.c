@@ -12,7 +12,7 @@ int binarysearch(int a[], int beg, int end, int val) {
     }
     return -1;
 }
-
+//main//
 int main() {
     int i, n, val;
     printf("Enter the number of elements:\n");
