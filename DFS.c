@@ -6,13 +6,12 @@ void dfs(int start, int adj[MAX][MAX], int visited[MAX]) {
   int stack[MAX];
   int top = -1;
 	int neighbor;
-  // Mark the starting node as visited (0 for unvisited, 1 for visited)
   visited[start] = 1;
   stack[++top] = start;
 
   while (top != -1) {
     int current = stack[top--];
-    printf("%c ", current + 65); // Print node value (assuming A-Z)
+    printf("%c ", current + 65); 
 
     // Iterate through neighbors and push unvisited ones onto the stack
     for ( neighbor = 0; neighbor < MAX; neighbor++) {
