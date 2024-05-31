@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define MAX 6
-
+//dfs//
 void dfs(int start, int adj[MAX][MAX], int visited[MAX]) {
   int stack[MAX];
   int top = -1;
