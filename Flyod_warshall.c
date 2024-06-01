@@ -36,7 +36,7 @@ int main() {
         for (int j = 0; j < V; j++) {
             scanf("%d", &graph[i][j]);
             if (i != j && graph[i][j] == 0) 
-                graph[i][j] = INF;
+                graph[i][j] = INF;//assign//
         }
     }
     floydWarshall(graph);
