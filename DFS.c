@@ -22,7 +22,7 @@ void dfs(int start, int adj[MAX][MAX], int visited[MAX]) {
     }
   }
 }
-
+//main//
 int main() {
   int adj[MAX][MAX],i,j;
   int visited[MAX] = {0}; // Initialize visited array with all 0s (unvisited)
